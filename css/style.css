@@ -205,6 +205,53 @@ select:-webkit-autofill:focus {
   flex-grow: 1;
 }
 
+/* HERO */
+.hero {
+  padding-bottom: 250px;
+  background-image:
+  url(../img/hero-bgi-left.svg),
+  url(../img/hero-bgi-button.svg);
+  background-repeat: no-repeat;
+  background-position: right calc(50% + 755px) top 0, right calc(50% - 350px) bottom -100px;
+}
+.hero__container {
+  display: flex;
+}
+.hero__heading {
+  margin: 0;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  margin-right: 24px;
+}
+.hero__heading-organge-word{
+  color: var(--Light-Coral);
+}
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 445px;
+  margin-left: auto;
+}
+.hero__hr {
+  width: 50px;
+  height: 4px;
+  background-color: var(--Rapture-Blue);
+  margin: 0;
+  margin-bottom: 80px;
+}
+.hero__text {
+  display: flex;
+  align-items: flex-end;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+}
+
 
 
 @media
