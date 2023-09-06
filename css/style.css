@@ -143,6 +143,7 @@ select:-webkit-autofill:focus {
 /* SITE HEADER  */
 .site-header {
   padding: 74px 0;
+  margin-bottom: 55px;
 }
 .site-header_container {
   display: flex;
@@ -178,6 +179,13 @@ select:-webkit-autofill:focus {
   color: var(--White);
   font-size: 18px;
   line-height: 28px;
+}
+
+.sitenav__link:hover{
+  opacity: 0.8;
+}
+.sitenav__link:active{
+  opacity: 0.6;
 }
 .button{
   display: block;
@@ -241,6 +249,7 @@ select:-webkit-autofill:focus {
   width: 50px;
   height: 4px;
   background-color: var(--Rapture-Blue);
+  border: none;
   margin: 0;
   margin-bottom: 80px;
 }
@@ -252,6 +261,94 @@ select:-webkit-autofill:focus {
   margin: 0;
 }
 
+/* FEATURES */
+.features {
+  padding: 140px 0;
+  background-color: var(--Sacramento-State-Green);
+  background-image: url(../img/features-bgi.svg);
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 755px) bottom 0;
+}
+
+.features__hr {
+  position: relative;
+  width: 50px;
+  height: 4px;
+  background-color: var(--Light-Coral);
+  border: none;
+  margin: 0;
+  margin-bottom: 54px;
+}
+
+.features__content {
+  display: flex;
+}
+
+.faetures__heading {
+  width: 100%;
+  max-width: 445px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0;
+  margin-right: auto;
+
+}
+
+.features__list {
+  list-style: none;
+}
+
+.features__feature {
+  display: flex;
+  align-items: flex-start;
+}
+.features__feature:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.feature__icon-box {
+  position: relative;
+  margin-right: 40px;
+}
+
+.feature__icon {
+  position: relative;
+  z-index: 100;
+}
+
+.round-icon-shadow {
+  position: absolute;
+  right: -16px;
+  bottom: -9px;
+  width: 56px;
+  height: 56px;
+  background-color: var(--Police-Blue);
+  border-radius: 50%;
+}
+
+.feature__content {
+  width: 100%;
+  max-width: 445px;
+}
+
+.feature__heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #F67E7E;
+}
+
+.feature__descreption {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  opacity: 0.8;
+}
 
 
 @media
